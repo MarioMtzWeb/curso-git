@@ -1,25 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
 <body>
-    <p id="parrafo">
-
-    </p>
-    <script>
-        const $p = document.getElementById('parrafo');
-
-        $p.innerText = 'hola :D';
-
-        const arr = [1,2,3,4,5,6,7,8,9];
-
-        const newArr = arr.splice(1,4);
-
-        console.log(newArr);
-    </script>
+    <main>
+        <div class="container">
+            <div class="container-target">
+                <header class="header-container">
+                    HyperBlogSpot
+                    <span class="header-tag">
+                        La cabecera de nuestro post :D
+                    </span>
+                </header>
+                <section class="post-container">
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed quas omnis rerum alias ratione labore
+                        unde maiores consequuntur tempore, reprehenderit distinctio accusamus quos culpa non, sunt hic in!
+                        Libero, eligendi.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed quas omnis rerum alias ratione labore
+                        unde maiores consequuntur tempore, reprehenderit distinctio accusamus quos culpa non, sunt hic in!
+                        Libero, eligendi.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed quas omnis rerum alias ratione labore
+                        unde maiores consequuntur tempore, reprehenderit distinctio accusamus quos culpa non, sunt hic in!
+                        Libero, eligendi.
+                    </p>
+                </section>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
 </body>
+
 </html>
