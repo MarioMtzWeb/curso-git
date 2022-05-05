@@ -33,7 +33,7 @@ body {
     display: inline-block;
     width: 30px;
     height: 30px;
-    object-fit: contain;
+    object-fit: cover;
     vertical-align:middle;
 }
 .header-tag {
