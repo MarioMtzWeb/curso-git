@@ -34,3 +34,13 @@ body {
     padding: 1rem;
     font-size: 1.5rem;
 }
+.target-footer {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #fff;
+    background-color:  rgb(59, 59, 231);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .7);
+}
